@@ -1,11 +1,14 @@
-
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
+import "./App.css";
+import FormArea from "./components/FormArea/FormArea";
+import NavBar from "./components/NavBar/NavBar";
+import BasicTable from "./components/TableArea/BasicTable";
 
 function App() {
   return (
     <>
-     <NavBar/>
+      <NavBar />
+      <FormArea />
+      <BasicTable />
     </>
   );
 }
